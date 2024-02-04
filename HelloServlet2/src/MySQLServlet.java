@@ -29,7 +29,7 @@ PrintWriter out = response.getWriter();
  Connection conn = null;
  String url = "jdbc:mysql://localhost/testdb";
  String user = "root";
- String password = "mysql";
+ String password = "";
  try {
  Class.forName("com.mysql.jdbc.Driver").newInstance();
  conn = DriverManager.getConnection(url, user, password);

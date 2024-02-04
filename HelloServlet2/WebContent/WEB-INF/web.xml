@@ -3,17 +3,17 @@
 xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
- <display-name>HelloServlet</display-name>
+ <display-name>HelloServlet2</display-name>
  <welcome-file-list>
  <welcome-file>index.jsp</welcome-file>
  </welcome-file-list>
  <servlet>
  <servlet-name>Hello</servlet-name>
- <servlet-class>HelloServlet</servlet-class>
+ <servlet-class>HelloServlet2</servlet-class>
  </servlet>
  <servlet-mapping>
  <servlet-name>Hello</servlet-name>
- <url-pattern>/HelloServlet/HelloServlet</url-pattern>
+ <url-pattern>/HelloServlet2/HelloServlet</url-pattern>
  </servlet-mapping>
  <servlet>
  <servlet-name>Welcome</servlet-name>
@@ -21,7 +21,7 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1"
  </servlet>
  <servlet-mapping>
  <servlet-name>Welcome</servlet-name>
- <url-pattern>/HelloServlet/WelcomeServlet</url-pattern>
+ <url-pattern>/HelloServlet2/WelcomeServlet</url-pattern>
  </servlet-mapping>
  <servlet>
  <servlet-name>Inquiry</servlet-name>
@@ -37,7 +37,7 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1"
  </servlet>
  <servlet-mapping>
  <servlet-name>Test</servlet-name>
- <url-pattern>/HelloServlet/TestServlet</url-pattern>
+ <url-pattern>/HelloServlet2/TestServlet</url-pattern>
  </servlet-mapping>
  <servlet>
  <servlet-name>MySQL</servlet-name>
@@ -45,6 +45,6 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1"
  </servlet>
  <servlet-mapping>
  <servlet-name>MySQL</servlet-name>
- <url-pattern>/HelloServlet/MySQLServlet</url-pattern>
+ <url-pattern>/HelloServlet2/MySQLServlet</url-pattern>
  </servlet-mapping>
 </web-app>
